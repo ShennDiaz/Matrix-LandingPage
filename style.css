@@ -1235,7 +1235,6 @@ section{
 
 
 .token-countdown-outer{
-    float: left;
     width: 100%;
     padding: 33px 0 40px;
 }
@@ -1253,12 +1252,10 @@ section{
     font-weight: normal;
     margin: 0 0 24px;
     position: relative;
-    float: left;
     width: 100%;
 }
 .token-countdown .countdown h6::before{
     top: 50%;
-    float: right;
     content: ":";
     right: -20px;
     position: absolute;
@@ -1272,7 +1269,7 @@ section{
     display: none;
 }
 .token-countdown .countdown p{
-    color:#43475a;
+    color:#e2e2e2;
     font-size:12px;
     font-weight:300;
     margin: 0;
@@ -1765,3 +1762,15 @@ footer.dark-black .widget_recent_entries ul li{
 }
 .icon-list{ width: 40px; margin-right: 10px;}
 .lista{  margin: 30px;}
+
+.bg-img{
+  background: linear-gradient( rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.8) ),url(images/timer.jpg);
+    background-position-x: 0%, 0%;
+    background-position-y: 0%, 0%;
+    background-attachment: scroll, scroll;
+    background-size: auto, auto;
+    background-size: cover;
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+}

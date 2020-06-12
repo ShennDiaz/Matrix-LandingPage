@@ -1016,7 +1016,7 @@ section{
     width: 100%;
     margin: 0;
     font-size: 14px;
-    line-height: 14px;
+    line-height: 20px;
 }
 /******************************** Blog Thumb Start **********************************/
 .blog-thumb{
@@ -1399,6 +1399,47 @@ section{
     transform: rotate(-180deg);
     background-color: transparent;
 }
+
+
+
+.vertical-progress-mini .progress {
+  height: 301px;
+  width: 21%;
+  float: left;
+  margin:0px 0 0 5%;
+  border: transparent;
+  background-color: transparent;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0);
+  box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+  transform: rotate(180deg);
+}
+.vertical-progress-mini .progress:first-child{
+    margin: 0;
+}
+.vertical-progress-mini .progress-bar {
+  float: left;
+  width: 0;
+  width: 100%;
+  position: relative;
+  background: #eee; /* fallback for old browsers */
+    background-image: linear-gradient(to top, #4a506b, #3e435a, #333749, #282b39, #1d1f29);
+    background-image: -webkit-linear-gradient(to top, #4a506b, #3e435a, #333749, #282b39, #1d1f29);
+
+    }
+.vertical-progress-mini .p-absolute{
+  top: 100%;
+width: 100%;
+color: #4a506b;
+font-size: 22px;
+font-weight: bold;
+padding-bottom: 15px;
+position: absolute;
+transform: rotate(-180deg);
+background-color: transparent;
+}
+
+
+
 .text-progress{
   margin: 10px;
   float: left;

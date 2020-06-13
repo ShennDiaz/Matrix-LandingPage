@@ -1407,6 +1407,9 @@ section{
     transform: rotate(-180deg);
     background-color: transparent;
 }
+@media (max-width: 1000px) {
+  .vertical-progress .p-absolute {  font-size: 15px;}
+}
 
 
 

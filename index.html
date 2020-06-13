@@ -30,7 +30,7 @@
         <!-- Short Code CSS -->
         <link href="css/shortcode.css" rel="stylesheet">
         <!-- Custom Style CSS -->
-		<link href="style.css" rel="stylesheet">
+		    <link href="css/style.css" rel="stylesheet">
         <!-- Color CSS -->
         <link href="css/color.css" rel="stylesheet">
         <!-- Responsive CSS -->
@@ -55,8 +55,8 @@
                     <div class="container">
                         <!-- Logo Start -->
                         <h1 class="logo">
-                            <a href="index.html" title="oscarthemes">
-                                <img src="images/logo.png" alt="oscarthemes">
+                            <a href="index.html" title="Matrix Coin">
+                                <img src="images/logo.png" class="logo-img" >
                             </a>
                         </h1>
                         <!-- /Logo End -->
@@ -72,6 +72,14 @@
                                         <li><a href="#distribution">Distribution</a></li>
                                         <li><a href="#rodemap">Road Map</a></li>
 																				<li><a href="#our-team">Our Team</a></li>
+																				<li style="margin-right: -35px;">
+																					<select  class="box-idiom" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+																							<option  selected="true" disabled="disabled"> </option>
+																							<option  value="http://matrixcoin.io/index.html" disabled="disabled">English</option>
+    																					<option value="http://matrixcoin.io/index-es.html" disabled="disabled">Spanish</option>
+																					</select>
+																				</li>
+																				<li style="margin:0;"> <img src="images/svg/en.svg" alt="" style="height:25px;"></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -92,15 +100,15 @@
                         </div>
                         <div data-aos="fadeIn" class="col-md-8 col-sm-8">
                             <div class="banner-thumb">
-                                <img src="images/svg/img1.svg" alt="">
+                                <img src="images/img1.png" alt="">
                             </div>
                         </div>
                     </div>
 										<div class="row" data-aos="fadeIn">
 											<div class="col-md-12 col-sm-12 col-xs-12">
-												<img src="images/partners/traders.svg" alt="" class="img-partners">
-												<img src="images/partners/matry.svg" alt="" class="img-partners">
-												<img src="images/partners/eth.svg" alt="" class="img-partners">
+												<a  href="https://www.tradersleagueacademy.com/"><img src="images/partners/traders.png" alt="" class="img-partners"></a>
+												<a  href="https://www.matryoshka-technologies.com/"><img src="images/partners/matry.png" alt="" class="img-partners"></a>
+												<a  href="https://ethereum.org/"><img src="images/partners/eth.png" alt="" class="img-partners"></a>
 											</div>
 										</div>
                 </div>
@@ -199,7 +207,7 @@
 												<div data-aos="fade-left" class="col-md-5 col-sm-5 col-xs-12">
 														<div class="about-thumb">
 																<div class="">
-																		<img src="images/svg/img2.svg" alt="" style="width:100%;">
+																		<img src="images/img2.png" alt="" style="width:100%;">
 																</div>
 														</div>
 												</div>
@@ -262,7 +270,7 @@
 										</div>
 										<div class="row">
 												<div data-aos="fade-right" data-aos-delay="500" class="col-md-7 col-sm-7 col-xs-12">
-														<div class="about-caption">
+														<div class="about-caption" style="padding: 50px 0 50px;">
 																<p>The Matrix project aims to make things that have to be done, in the crypto world we have never seen a true project in which to believe and that meets
 																	the innovation standards that its users need and we believe that is why MAT has a lot to contribute.</p>
 																<p>The problems are evident, it seems that nobody does what is pending to be done.</p>
@@ -276,7 +284,7 @@
 												<div data-aos="fade-left" class="col-md-5 col-sm-5 col-xs-12">
 														<div class="about-thumb">
 																<div class="">
-																		<img src="images/svg/img3.svg" alt="" style="width:100%;">
+																		<img src="images/img3.png" alt="" style="width:100%;">
 																</div>
 														</div>
 												</div>
@@ -285,14 +293,12 @@
 								</section>
 <!-- DISTRIBUTION-->
 								<section id="distribution">
-									<div class="featured-slider-section" id="featured">
-											<div class="container" style="width: 1400px;">
+									<div class="featured-slider-section" >
+											<div class="container">
+												<div class="section-heading-2 white text-center mb-30 mt-60">
+														<h2 class="title">Distribution</h2>
+												</div>
 												<div data-aos="fade-up" id="tokensale" class="tokensale-wrap">
-														<div class="row">
-																<div class="section-heading-2 white text-center mb-30 mt-60">
-				                            <h2 class="title">Distribution</h2>
-				                        </div>
-														</div>
 															<div class="row ">
 																			<div class="vertical-progress align-vertical">
 																					<div class="progress">
@@ -457,7 +463,7 @@
 																	</figure>
 																	<div class="text">
 																			<h6 class="title"><a href="#">Iker Arias</a></h6>
-																			<div class="designation">Lecturer and Master Trader <br> Founder and CEO of TLA, my mission is to inspire people.</div>
+																			<div class="designation">Lecturer and Master Trader <br> Founder and CEO of TLA</div>
 																			<div class="designation" style="font-style: italic; margin-top:30px;">
 																				"The best way to predict the future is to create it."</div>
 																	</div>
@@ -592,14 +598,6 @@
                 <div class="container">
                     <div class="pull-left">
                         <p> Copyright @ 2020 Matrix Coin. All Rights Reserved.</p>
-                    </div>
-                    <div class="pull-right">
-                        <ul class="short-nav">
-                            <li><a href="#">Terms of services</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Security</a></li>
-                            <li><a href="#">Siemap</a></li>
-                        </ul><!-- / Ul -->
                     </div>
                 </div>
             </div><!-- /Copyright End-->

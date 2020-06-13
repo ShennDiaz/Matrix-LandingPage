@@ -175,6 +175,11 @@
 		margin-top: 5px;
 		position: relative;
 	}
+	@media (max-width: 990px) {
+		.menu-holder{
+			margin-top: 20px;
+		}
+	}
 	.mean-container a.meanmenu-reveal{
 		margin:0;
 	}

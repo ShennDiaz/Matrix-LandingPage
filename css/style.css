@@ -73,9 +73,8 @@ section{
     width: auto;
     line-height: 0;
 }
-.logo-img{ height:100%; }
 @media (max-width: 500px){
-  .logo-img{ height: 80px; }
+  .logo-img{ width: : 150px; }
 }
 
 .menu-holder{
